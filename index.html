@@ -1,1 +1,2380 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de">
+	<head>
+		<title>
+							Im Konto anmelden
+			 | hot.ch
+		</title>
+		
+					<meta name="robots" content="NOINDEX, NOFOLLOW" />
+		
+				<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="description" content="" />
+
+		
+				<link rel="apple-touch-icon" sizes="180x180" href="https://hot.ch/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="https://hot.ch/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="https://hot.ch/favicon-16x16.png">
+				<link rel="mask-icon" href="https://hot.ch/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#ffc40d">
+		<meta name="theme-color" content="#ffffff">
+
+		<!--  -->
+
+		          <style>
+                @media (min-width: 768px){
+            header .main-menu .logo-inner-container .logo a {
+                background: url(https://hot.ch/assets/tpl/hot/img/logos/logo.png) 0 0 no-repeat;
+            }
+                    @media only screen and (-webkit-min-device-pixel-ratio: 1.25), not all, only screen and (min-resolution: 120dpi){
+                header .main-menu .logo-inner-container .logo a {
+                    background: url(https://hot.ch/assets/tpl/hot/img/logos/logo.png) 0 0 no-repeat;
+                }
+            }
+        }
+                @media (max-width: 768px){
+            header .top-navigation-mobile .logo-mobile a {
+                background: url(https://hot.ch/assets/tpl/hot/img/logos/mobile-logo.png) 0 0 no-repeat;
+            }
+                    @media only screen and (-webkit-min-device-pixel-ratio: 1.25), not all, only screen and (min-resolution: 120dpi){
+                header .top-navigation-mobile .logo-mobile a {
+                    background: url(https://hot.ch/assets/tpl/hot/img/logos/mobile-logo@2x.png) 0 0 no-repeat;
+                }
+            }
+        }
+    </style>
+
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" as="font" type="font/woff2" crossorigin href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0"/>
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.2/nouislider.min.css" integrity="sha512-qveKnGrvOChbSzAdtSs8p69eoLegyh+1hwOMbmpCViIwj7rn4oJjdmMvWOuyQlTOZgTlZA0N2PXA7iA8/2TUYA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent/3.1.1/cookieconsent.min.css" integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    
+        
+        
+          
+            <link href="https://hot.ch/assets/tpl/hot/css/xescort-dev.style-ve.min.100743.css" type="text/css" rel="stylesheet" />
+                <link href="https://hot.ch/assets/tpl/hot/css/xescort-dev.style-lo.min.593324.css" type="text/css" rel="stylesheet" />
+    
+    
+    
+		
+				
+		<!--[if lt IE 9]>
+		<meta http-equiv="refresh" content="0; url=https://hot.ch/assets/tpl/hot/browser-upgrade.htx" />
+		<style>body { display: none ! important; }</style>
+		<![endif]-->
+
+			<!--[if IE 9]>
+		<link rel="stylesheet" href="https://hot.ch/assets/tpl/hot/css/ie9-fallback.css" />
+		<![endif]-->
+
+										
+		  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+    var google_map_style = {
+        static: '&style=feature:administrative%7Clightness:20&style=feature:administrative%7Celement:geometry%7Cvisibility:off&style=feature:administrative.land_parcel%7Cvisibility:off&style=feature:administrative.neighborhood%7Cvisibility:off&style=feature:landscape%7Clightness:15&style=feature:landscape%7Celement:labels%7Cvisibility:off&style=feature:landscape.natural.terrain%7Cvisibility:off&style=feature:poi%7Csaturation:-10%7Clightness:10&style=feature:poi%7Celement:labels%7Cvisibility:off&style=feature:poi%7Celement:labels.text%7Cvisibility:off&style=feature:road%7Cvisibility:simplified&style=feature:road%7Celement:labels.icon%7Csaturation:-100%7Clightness:45&style=feature:road.highway%7Celement:geometry%7Clightness:20%7Cvisibility:on&style=feature:road.highway%7Celement:labels.icon%7Csaturation:55%7Clightness:25&style=feature:transit%7Cvisibility:on&style=feature:water%7Csaturation:-15%7Clightness:15&style=feature:water%7Celement:labels.text%7Cvisibility:off',
+        dynamic: [
+            {
+                "featureType": "administrative",
+                "stylers": [
+                    {
+                        "saturation": 15
+                    }
+                ]
+            },
+            {
+                "featureType": "administrative",
+                "elementType": "geometry",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+            },
+            {
+                "featureType": "administrative.land_parcel",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+            },
+            {
+                "featureType": "administrative.neighborhood",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+            },
+            {
+                "featureType": "landscape",
+                "elementType": "labels",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+            },
+            {
+                "featureType": "landscape.natural.terrain",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+            },
+            {
+                "featureType": "poi",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+            },
+            {
+                "featureType": "poi",
+                "elementType": "labels",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+            },
+            {
+                "featureType": "poi.park",
+                "stylers": [
+                    {
+                        "visibility": "on"
+                    }
+                ]
+            },
+            {
+                "featureType": "road",
+                "elementType": "labels",
+                "stylers": [
+                    {
+                        "saturation": -5
+                    }
+                ]
+            },
+            {
+                "featureType": "road",
+                "elementType": "labels.icon",
+                "stylers": [
+                    {
+                        "saturation": -65
+                    },
+                    {
+                        "lightness": 25
+                    }
+                ]
+            },
+            {
+                "featureType": "road.highway",
+                "elementType": "geometry",
+                "stylers": [
+                    {
+                        "lightness": 20
+                    }
+                ]
+            },
+            {
+                "featureType": "road.highway",
+                "elementType": "labels.icon",
+                "stylers": [
+                    {
+                        "saturation": 35
+                    },
+                    {
+                        "lightness": 10
+                    }
+                ]
+            },
+            {
+                "featureType": "transit",
+                "stylers": [
+                    {
+                        "weight": 2.5
+                    }
+                ]
+            },
+            {
+                "featureType": "transit",
+                "elementType": "geometry",
+                "stylers": [
+                    {
+                        "color": "#c0c0c0"
+                    },
+                    {
+                        "lightness": 30
+                    },
+                    {
+                        "weight": 2
+                    }
+                ]
+            },
+            {
+                "featureType": "water",
+                "stylers": [
+                    {
+                        "saturation": -15
+                    },
+                    {
+                        "lightness": 5
+                    }
+                ]
+            },
+            {
+                "featureType": "water",
+                "elementType": "labels.text",
+                "stylers": [
+                    {
+                        "lightness": 15
+                    }
+                ]
+            }
+        ]
+    };
+</script><script>/*<![CDATA[*/
+	var rlLangDir = 'ltr';
+	var rlLang = 'de';
+
+	var isLogin = false;
+	var staticDataClass = false;
+
+    window.CKEDITOR_BASEPATH = "https://hot.ch/assets/js/ckeditor/";
+
+    var lang = {
+        error_501 : 'Internal server error',
+        photo: 'Bild',
+        of: 'von',
+        close: 'Schließen',
+        add_photo: 'Avatar Bild hochladen. Es wird zugeschnitten auf',
+        from: 'ab',
+        to: 'Bis',
+        remove_from_favorites: 'Folgen',
+        add_to_favorites: 'Folgen',
+        no_favorite: 'Es wurden keine Inserate-Favoriten gespeichert.',
+        no_favorite_details: 'Du hast noch keine Inserate zu deinen Favoriten hinzugefügt. Klicke auf das Herz-Symbol eines Inserats, um es zu deinen Favoriten hinzuzufügen.',
+        notice_choose_account_type: 'Bitte wähle einen Kontotyp aus.',
+        notice_field_not_valid: '{field} ist nicht gültig',
+        username: 'Benutzername',
+        notice_bad_email: 'Bitte überprüfe die eingegebene E-Mail-Adresse.',
+        password_strength_pattern: 'Sicherheit ({number} von {maximum})',
+        notice_reg_length: 'Mindestens 3 Zeichen müssen in das {field} Feld eingegeben werden.',
+        notice_pass_bad: 'Passwörter stimmen nicht überein',
+        password: 'Passwort',
+        security_code_incorrect: 'Die von dir eingegebenen Zeichen stimmen nicht mit dem Captcha überein.',
+        loading: 'Ladevorgang ...',
+        password_weak_warning: 'Dein Passwort ist zu schwach, wir empfehlen Grossbuchstaben zu verwenden, um es stärker zu machen.',
+        newsletter_email: 'Newsletter',
+        notice_no_agree: 'Du musst das {field} ausfüllen.',
+        manage: 'Ändern',
+        done: 'Fertig',
+        cancel: 'Abbrechen',
+        delete: 'Löschen',
+        warning: 'Warnung!',
+        notice: 'Hinweis',
+        unsaved_photos_notice: 'Bitte warten, Upload läuft (<b>{number}</b> Bilde(er) übrig).',
+        gateway_fail: 'Bitte wähle einen <b>Zahlungs-Gateway</b> aus der Liste.',
+        characters_left: 'Zeichen übrig',
+        notice_bad_file_ext: 'Die {ext} Dateierweiterung ist nicht kompatibel. Bitte verwende eine Erweiterung aus der Liste.',
+        no_browser_gps_support: 'Dein Browser unterstützt die Option Geolokalisierung nicht',
+        gps_support_denied: 'Bitte aktiviere die Geolokalisierung in deinen Browsereinstellungen',
+        show_subcategories: 'Unterkategorien anzeigen',
+        txtfakecheck: 'Fälschung überprüfen',
+        txtGoToListing: 'Inserat anzeigen',
+        login: 'Anmelden',
+        phoneNumber_not_valid: 'Die Telefonnummer ist ungültig.',
+        address_not_valid: 'Die eingegebene Adresse ist ungültig.',
+        view_switcher_title: 'Wähle die Ansicht',
+        hide: 'Nicht anzeigen',
+        show: 'Anzeigen',
+        location_not_found: 'Der <b>{location}</b> Ort konnte nicht gefunden werden.',
+        label_xrated_media: 'Ab 18',
+        label_verified_media: 'Verifiziert',
+        ms_message_placeholder: 'Nachricht eingeben',
+        leave_page_main_message: 'Möchtest du diese Seite verlassen? Änderungen werden möglicherweise nicht gespeichert.',
+        leave_page_custom_buttons_message: 'Klicke auf OK um diese Seite zu verlassen, oder auf Abbrechen, um zu bleiben.',
+        profile_management_invite_invite_sent: 'Wenn die eingeladene E-Mail-Adresse existiert und für ein Konto bei hot.ch berechtigt ist, wurde sie eingeladen.',
+        profile_management_invite_invalid_email: 'Ungültige E-Mail Adresse',
+        profile_management_invite_limit_reached: 'Du hast zu viele Einladungen versendet. Bitte versuche es später nochmal.',
+        profile_management_invite_already_sent: 'An diese E-Mail Adresse wurde bereits eine Einladung versendet.',
+        profile_management_notice_cancel_invite: 'Die Einladung wurde abgebrochen',
+        profile_management_notice_accept_join: 'Die Beitrittsanfrage wurde akzeptiert',
+        profile_management_notice_decline_join: 'Die Beitrittsanfrage wurde abgelehnt.',
+        profile_management_join_limit_reached: 'Du hast zu viele Anfragen versendet. Bitte versuche es später nochmal.',
+        banned_words_word_banned_notice: 'Das Wort {word} ist gesperrt! Bitte entferne es.',
+        banned_words_replace_notice: 'Ersetzen mit {altword}',
+        video_upload_content_validation_label: 'Validierung des Inhalts (bitte warte...)',
+        system_messages_seconds: 'Sekunden',
+        system_messages_minutes: 'Minuten',
+        system_messages_hours: 'Stunden',
+        system_messages_days: 'Tage',
+        search: 'Suche',
+    };
+    var rlPageInfo = {
+        key: 'login',
+        controller: 'login',
+        path: 'login',
+        Level: 0,
+		page: ''
+    };
+
+    var rlConfig = {
+        seo_url: 'https://hot.ch/',
+        seo_ajax_url: 'https://hot.ch/api/',
+        tpl_base: 'https://hot.ch/assets/tpl/hot/',
+        files_url: 'https://hot.ch/files/',
+        libs_url: 'https://hot.ch/assets/js/',
+        map_marker: 'https://hot.ch/assets/js/jquery/markers/marker.png',
+        plugins_url: 'https://hot.ch/assets/js/plugins/',
+        ajax_url: 'https://hot.ch/api/request.ajax.php',
+        instance_id: 1,
+        base_subfolder: '',
+        mod_rewrite:1,
+        sf_display_fields:0,
+        account_password_strength:0,
+        messages_length: 400,
+        pg_upload_thumbnail_width: 336,
+        pg_upload_thumbnail_height: 336,
+        template_type: 'responsive_42'
+        ,
+        domain: '.hot.ch',
+        domain_path: '/',
+        map_view_all_listings: 1,
+        max_page_level: 2,
+        password_min_length: 6,
+        security_img_registration: 1,
+        google_map_mapview_marker_clustering:false,
+        google_map_mapview_load_markers_with_ajax:true,
+        google_map_center: {"lat":"47.375325557145","lng":"8.5419443088246","auto_center":false,"auto_zoom":false,"default_center":true},
+        google_map_markers_zoom_level:11,
+        google_map_remove_markers_outside_of_viewport:true,
+        google_map_open_mapview_in_lightbox:true,
+        google_map_marker_spiderfier:true,
+        google_map_shift_markers:false,
+        google_map_map_default_zoom: 10,
+        google_map_map_default_zoom_coordinates: 11,
+        google_map_markers_limit_for_top_level: 200,
+        google_map_dynamic_map_center: 1,
+        country_code: 'CH',
+        favorites_login_required:true,
+        popup_chat:true,
+        recaptcha_public_key: '6Lc2MscgAAAAAHwIcq3fIpcJYJhbafL7jNMjj9BF',
+        recaptcha_theme: 'light',
+        vjs_css: 'https://vjs.zencdn.net/7.6.5/video-js.min.css',
+        vjs_js: 'https://vjs.zencdn.net/7.18.1/video.min.js',
+        vjs_js_lang: 'https://vjs.zencdn.net/7.18.1/lang/de.js',
+        jquery_ui: 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.3/jquery-ui.min.js',
+        map_markers: {
+            regular: {
+                pattern: {
+                    url: '/assets/js/jquery/markers/m-dark.png',
+                },
+                zIndex: 0
+            },
+            premium: {
+                pattern: {
+                    url: '/assets/js/jquery/markers/m-red.png',
+                },
+                zIndex: 1
+            },
+            gotd: {
+                pattern: {
+                    url: '/assets/js/jquery/markers/m-gold-large.png',
+                },
+                zIndex: 2
+            },
+            club: {
+                pattern: {
+                    url: '/assets/js/jquery/markers/m-dark.png',
+                },
+                zIndex: 0
+            },
+            club_partner: {
+                pattern: {
+                    url: '/assets/js/jquery/markers/m-red.png',
+                },
+                zIndex: 1
+            },
+            grouped: {
+                pattern: {
+                    url: '/assets/js/jquery/markers/m-dark-grouped.png',
+                },
+                zIndex: 0
+            },
+            active_geo_filter: {
+                pattern: { // No Markers on map when distance search is active
+                    path: 'M9,27 C7,27 0,16.9704016 0,9 C2.28269391e-16,4.02943725 4.02943725,0 9,0 C13.9705627,0 18,4.02943725 18,9 C18,16.9704016 11,27 9,27 Z M9,13 C11.209139,13 13,11.209139 13,9 C13,6.790861 11.209139,5 9,5 C6.790861,5 5,6.790861 5,9 C5,11.209139 6.790861,13 9,13 Z',
+                    strokeColor: 'white',
+                    fillOpacity: 1,
+                    scale: 1.5,
+                    strokeWeight: 1
+                },
+                fill_color: '#1477E8',
+                fill_color_hover: '#599AE3',
+                zIndex: 10,
+                animation: true
+            },
+        },
+        smiley_images: ["ar-smile01.png","ar-smile02.png","ar-smile03.png","ar-smile04.png","ar-smile05.png","ar-smile06.png","ar-smile07.png","ar-smile08.png","ar-smile09.png","ar-wink01.png","ar-wink02.png","ar-wink03.png","ar-kiss01.png","ar-kiss02.png","ar-smile-shy01.png","ar-smile-shy02.png","ar-smile-shy03.png","ar-smile-shy04.png","ar-smile-shy05.png","ar-smile-shy06.png","ar-hearts01.png","ar-hearts02.png","ar-hearts03.png","ar-hearts04.png","ar-hearts05.png","ar-hearts06.png","ar-hearts07.png","ar-cool01.png","ar-cool02.png","ar-laugh01.png","ar-laugh02.png","ar-love01.png","ar-love02.png","ar-love03.png","ar-naughty01.png","ar-naughty02.png","ar-naughty03.png","ar-oh01.png","ar-oh02.png","ar-wow01.png","ar-wow02.png","ar-wow03.png","ar-xd01.png","ar-xd02.png","ar-xd03.png","ar-amazed01.png","ar-amazed02.png","ar-annoyed01.png","ar-annoyed02.png","ar-annoyed03.png","ar-crazy01.png","ar-crazy02.png","ar-crazy03.png","ar-crazy04.png","ar-cry01.png","ar-cry02.png","ar-cry03.png","ar-shocked01.png","ar-shocked02.png","ar-shocked03.png","ar-sick01.png","ar-sick02.png","ar-sick03.png","ar-sick04.png","ar-tired01.png","ar-tired02.png","ar-tired03.png","ar-tired04.png","ar-unsure01.png","ar-unsure02.png","he-heart.png","he-arrow.png","he-bondage.png","he-boobs.png","he-candle.png","he-devil.png","he-fetish.png","he-fluffy.png","he-gag.png","he-kiss.png","he-lingerie.png","he-love.png","he-money.png","he-piercing.png","he-strawberry.png","he-tattoo.png","se-strawberry.png","se-bed.png","se-condom.png","se-handcuffs.png","se-lips.png","se-male-female.png","se-phone-sex.png","se-sperm.png","li-lips01.png","li-lips02.png","li-lips04.png","li-lips05.png","li-lips06.png","li-lips07.png","li-lips08.png","li-lips09.png","li-lips10.png","li-lips11.png","li-lips12.png","li-lips13.png","li-lips14.png","li-lips15.png","li-lips16.png"],
+        registration_hide_account_type: 1
+	};
+
+	var qtip_style = new Object({
+		classes: 'qtip-custom'
+	});
+	var usedCountriesCodes = ['CH','DE','al','ad','at','by','be','ba','bg','hr','cz','dk','ee','fo','fi','fr','de','gi','gr','va','hu','is','ie','it','lv','li','lt','lu','mk','mt','md','mc','me','nl','no','pl','pt','ro','ru','sm','rs','sk','si','es','se','ch','ua','gb'];
+	var usedCountriesNames = ['Schweiz','Deutschland'];
+    var leave_page_confirm = false;
+    var autocompletes = {};
+    var grid_modes_list = [];
+        grid_modes_list.push('list');
+        grid_modes_list.push('grid');
+        grid_modes_list.push('map');
+    /*]]>*/
+</script>
+
+            <script src="https://hot.ch/assets/tpl/hot/js/xescort-dev.header.min.31825.js"></script>
+    
+
+					<script>
+				$(document).ready(function () {
+					var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+					if( width < 767) {
+												mobileGoBackInit();
+					}
+				});
+			</script>
+		
+		
+
+		
+				
+					<style>
+    /* Base ad container styles */
+    .box-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+        width: 100%;
+        min-height: 10px;
+    }
+
+    .box-container.mobile {
+        display: none;
+    }
+
+    .box-container.top .m3_container {
+        margin-top: 20px;
+    }
+
+    .box-container.bottom .m3_container {
+        margin-bottom: 20px;
+    }
+ 
+    @media screen and (max-width: 767px) {
+        .box-container {
+            display: none;
+        }
+        .box-container.mobile {
+            display: flex;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+            .box-container.bottom.sa-home::before {
+            content: "";
+            display: block;
+            padding-top: 90px;
+            width: 100%;
+            margin-bottom: 20px;
+            max-width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .box-container.mobile.bottom.sa-home.sa-rectangle::after {
+            content: "";
+            display: block;
+            padding-top: 250px;
+            max-width: 300px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .box-container.mobile.bottom.sa-home.sa-mobile::after {
+            content: "";
+            display: block;
+            padding-top: 100px;
+            max-width: 300px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+
+    #listings .box-container .billboard-container, 
+    #listings .box-container .billboard-container .m3_container, 
+    #listings .box-container .billboard-container .M3Billboard_1ad,
+    #listings .box-container .billboard-container .M3Billboard_1ad a {
+        max-width: 100%;
+    }
+
+    #listings .box-container .billboard-container img,
+    .at-agenturen-clubs-page .box-container .billboard-container img,
+    .view-details-page .box-container .billboard-container img {
+        max-width: 100%;
+    }
+
+    @media screen and (max-width: 1300px) {
+        #listings .box-container .billboard-container,
+        .at-agenturen-clubs-page .box-container .billboard-container,
+        .view-details-page .box-container .billboard-container {
+            display: none;
+        }
+    }
+
+    .box-container.mobile.bottom.sa-home.sa-rectangle .rectangle-container, 
+    .box-container.mobile.bottom.sa-home.sa-rectangle .mobile-rectangle-container, 
+    .box-container.mobile.bottom.sa-home.sa-mobile .mobile-container,
+    .box-container.mobile.bottom.sa-home.sa-mobile .mobile-mobile-container,
+    .box-container.bottom.sa-home.sa-billboard .billboard-container {
+        position: absolute;
+    }
+
+    /* Layout adjustments for content columns */
+    @media (min-width: 992px) {
+        .home-page .content.col-md-9,
+        .view-details-page .content.col-md-9,
+        .updates-page .content.col-md-9,
+        .listing-gallery-page .content.col-md-9,
+        .clubs-page .content.col-md-9, 
+        .news-page .content.col-md-9,
+        .my-favorites-page .content.col-md-9,
+        .at-agenturen-clubs-page .content.col-md-9 {
+            max-width: calc(100% - 320px);
+            width: calc(75% + 20px);
+        }
+        .home-page .content_sidebar > .right,
+        .view-details-page .content_sidebar > .right,
+        .updates-page .content_sidebar > .right,
+        .listing-gallery-page .content_sidebar > .right,
+        .clubs-page .content_sidebar > .right,
+        .news-page .content_sidebar > .right,
+        .my-favorites-page .content_sidebar > .right,
+        .at-agenturen-clubs-page .content_sidebar > .right {
+            min-width: 340px;
+            max-width: 340px;
+        }
+    }
+
+    /* Specific ad format styles */
+    .halfpage-container .m3_container, .billboard-container .m3_container {
+        margin-bottom: 20px;
+    }
+
+    .billboard-container {
+        margin-top: 20px;
+    }
+
+    #listings .box-container .billboard-container {
+        margin-top: 6px;
+    }
+
+    .at-agenturen-clubs-page .box-container .billboard-container,
+    .view-details-page .box-container .billboard-container {
+        margin-top: 0;
+    }
+    
+    .header-banner .large_leaderboard-container {
+        margin-top: 0;
+        width: 100%;
+    }
+
+    /* Fix 10px margin top issues for banner sidebar */
+    .banner_block_type_bb_sidebar_right .box-container:has(.m3_container) {
+        margin-top: -10px;
+        z-index: 9999999;
+    }
+
+    /* Homepage leaderboard positioning */
+    #header-banner .box-container {
+        position: absolute;
+        top: 60%;
+        left: 0;
+        right: 0;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    /* Top banner cycle ad container */
+    /* .top-banner-cycle .external-box {
+        position: relative !important;
+    } */
+
+    .top-banner-cycle .box-container {
+        position: absolute;
+        /* height: 100%; */
+        min-width: 10px;
+        /* justify-content: end; */
+        top: 50%;
+        right: 0;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    /* View details page specific styles */
+    .view-details-page .side_block.banners {
+        margin-top: 0;
+    }
+    .view-details-page .between-profiles-banner-wrapper {
+        margin-top: 20px;
+    }
+    /* .view-details-page .between-profiles-banner-wrapper .inner-wrapper::before {
+        display: none !important;
+    } */
+    /* .view-details-page .banner_block_type_bb_between_listings {
+        position: unset !important;
+    } */
+
+
+    /* Between profiles banner styles */
+    /* .between-profiles-banner-wrapper.loaded.solads .banner_block_type_bb_between_listings {
+        bottom: 0;
+    }
+    .between-profiles-banner-wrapper.loaded.solads .inner-wrapper::before {
+        padding-top: 95px;
+        margin-bottom: 10px;
+    } */
+
+    /* Responsive breakpoints */
+    @media screen and (max-width: 1239px) {
+        .top-banner-cycle .box-container {
+           display: none;
+        }
+    }
+
+    @media screen and (max-width: 1020px) {
+        .billboard-container {
+            display: none;
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1100px) { 
+        .box-container.bottom.sa-home.sa-leaderboard {
+            display: none;
+        }
+    }
+
+    .large_leaderboard-container .m3_container {
+        margin-bottom: 0 !important;
+        /* height: 100% !important;
+        width: 100% !important;
+        padding-top: 60px; */
+    }
+
+    /* Mobile-specific styles */
+    /* @media screen and (max-width: 767px) {
+        .mobile.between-profiles-banner-wrapper.loaded.solads::after {
+            padding-top: 250px;
+            margin-bottom: 20px;
+        }
+        
+        .mobile.between-profiles-banner-wrapper.loaded.solads.bottom-sa::after {
+            padding-top: 600px;
+            margin-bottom: 20px;
+        }
+
+        .view-details-page .banners-box-mobile {
+            position: static;
+            display: block;
+        }
+
+        .view-details-page .mobile.between-profiles-banner-wrapper.loaded.solads::after {
+            display: none;
+        }
+
+    } */
+
+     .mobile-rectangle-container .sa-placeholder {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-height: 240px;
+        margin-top: -14px;
+        max-width: 290px;
+     }
+</style>
+
+
+
+			<script data-cfasync="false" nonce="61304eb7-c3d8-4cf2-99d2-c62782989b60">try{(function(w,d){!function(a,b,c,d){if(a.zaraz)console.error("zaraz is loaded twice");else{a[c]=a[c]||{};a[c].executed=[];a.zaraz={deferred:[],listeners:[]};a.zaraz._v="5848";a.zaraz._n="61304eb7-c3d8-4cf2-99d2-c62782989b60";a.zaraz.q=[];a.zaraz._f=function(e){return async function(){var f=Array.prototype.slice.call(arguments);a.zaraz.q.push({m:e,a:f})}};for(const g of["track","set","debug"])a.zaraz[g]=a.zaraz._f(g);a.zaraz.init=()=>{var h=b.getElementsByTagName(d)[0],i=b.createElement(d),j=b.getElementsByTagName("title")[0];j&&(a[c].t=b.getElementsByTagName("title")[0].text);a[c].x=Math.random();a[c].w=a.screen.width;a[c].h=a.screen.height;a[c].j=a.innerHeight;a[c].e=a.innerWidth;a[c].l=a.location.href;a[c].r=b.referrer;a[c].k=a.screen.colorDepth;a[c].n=b.characterSet;a[c].o=(new Date).getTimezoneOffset();if(a.dataLayer)for(const k of Object.entries(Object.entries(dataLayer).reduce(((l,m)=>({...l[1],...m[1]})),{})))zaraz.set(k[0],k[1],{scope:"page"});a[c].q=[];for(;a.zaraz.q.length;){const n=a.zaraz.q.shift();a[c].q.push(n)}i.defer=!0;for(const o of[localStorage,sessionStorage])Object.keys(o||{}).filter((q=>q.startsWith("_zaraz_"))).forEach((p=>{try{a[c]["z_"+p.slice(7)]=JSON.parse(o.getItem(p))}catch{a[c]["z_"+p.slice(7)]=o.getItem(p)}}));i.referrerPolicy="origin";i.src="/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(a[c])));h.parentNode.insertBefore(i,h)};["complete","interactive"].includes(b.readyState)?zaraz.init():a.addEventListener("DOMContentLoaded",zaraz.init)}}(w,d,"zarazData","script");window.zaraz._p=async bs=>new Promise((bt=>{if(bs){bs.e&&bs.e.forEach((bu=>{try{const bv=d.querySelector("script[nonce]"),bw=bv?.nonce||bv?.getAttribute("nonce"),bx=d.createElement("script");bw&&(bx.nonce=bw);bx.innerHTML=bu;bx.onload=()=>{d.head.removeChild(bx)};d.head.appendChild(bx)}catch(by){console.error(`Error executing script: ${bu}\n`,by)}}));Promise.allSettled((bs.f||[]).map((bz=>fetch(bz[0],bz[1]))))}bt()}));zaraz._p({"e":["(function(w,d){})(window,document)"]});})(window,document)}catch(e){throw fetch("/cdn-cgi/zaraz/t"),e;};</script></head>
+
+	
+	<body class="large login-page no-sidebar header-banner">
+	<nav id="slideout-menu" class="slideout-menu-hide">
+		<div class="slidebar-menu">
+            <div class="slidebar-header clearfix">
+    <div class="tb-wrapper clearfix">
+
+                                            <div class="item-wrapper language clearfix">
+                <div class="item-dropdown">
+                    <select class="language sumo-flags-selector" onchange="if(this.value)window.location.href=this.value;">
+                                                                                                            <option value="foot.php" selected="selected" data-icon-src="https://hot.ch/assets/tpl/hot/img/flags/de.png">
+                                Deutsch
+                            </option>
+                                                                                                            <option value="https://hot.ch/en/login" data-lang="en" data-icon-src="https://hot.ch/assets/tpl/hot/img/flags/en.png">
+                                English
+                            </option>
+                                                                                                            <option value="https://hot.ch/it/login" data-lang="it" data-icon-src="https://hot.ch/assets/tpl/hot/img/flags/it.png">
+                                Italiano
+                            </option>
+                                                                                                            <option value="https://hot.ch/hu/bejelentkezes" data-lang="hu" data-icon-src="https://hot.ch/assets/tpl/hot/img/flags/hu.png">
+                                Magyar
+                            </option>
+                                                                                                            <option value="https://hot.ch/bg/vkhod" data-lang="bg" data-icon-src="https://hot.ch/assets/tpl/hot/img/flags/bg.png">
+                                Български
+                            </option>
+                                                                                                            <option value="https://hot.ch/ro/login" data-lang="ro" data-icon-src="https://hot.ch/assets/tpl/hot/img/flags/ro.png">
+                                Românesc
+                            </option>
+                                                                                                            <option value="https://hot.ch/fr/login" data-lang="fr" data-icon-src="https://hot.ch/assets/tpl/hot/img/flags/fr.png">
+                                Français
+                            </option>
+                                                                                                            <option value="https://hot.ch/es/inicio-de-sesion" data-lang="es" data-icon-src="https://hot.ch/assets/tpl/hot/img/flags/es.png">
+                                Español
+                            </option>
+                                                                                                            <option value="https://hot.ch/sl/prijava" data-lang="sl" data-icon-src="https://hot.ch/assets/tpl/hot/img/flags/sl.png">
+                                Slovenski
+                            </option>
+                                                                                                            <option value="https://hot.ch/pt/login" data-lang="pt" data-icon-src="https://hot.ch/assets/tpl/hot/img/flags/pt.png">
+                                Português
+                            </option>
+                                                                                                            <option value="https://hot.ch/ru/vkhod" data-lang="ru" data-icon-src="https://hot.ch/assets/tpl/hot/img/flags/ru.png">
+                                Русский
+                            </option>
+                                            </select>
+                </div>
+            </div>
+            </div>
+
+            <a title="Gratis Registrieren" href="https://hot.ch/registration">
+            <div class="mobile-drawer-header">
+                <div class="header-icon"><script type="text/javascript" style="display:none">
+//<![CDATA[
+window.__mirage2 = {petok:"Q5yg5ZBDB0RWtRygFQydZ9UX3uMPs1S.TvXrJR78Svg-1800-0.0.1.1"};
+//]]>
+</script>
+<script type="text/javascript" src="https://ajax.cloudflare.com/cdn-cgi/scripts/04b3eb47/cloudflare-static/mirage2.min.js"></script>
+<img data-cfsrc="https://hot.ch/assets/tpl/hot/img/flame-white.png" style="display:none;visibility:hidden;"><noscript><img src="https://hot.ch/assets/tpl/hot/img/flame-white.png"></noscript></div>
+                <div class="header-text">hot.ch ist kostenlos. <u>Jetzt registrieren!</u></div>
+            </div>
+        </a>
+    
+    </div>        <div class="slidebar-body clearfix">
+
+    <ul class="nav nav-pills nav-stacked">
+            <li role="presentation">
+            <a href="javascript: void(0);" class="login-modal"><i class="fa fa-sign-in"></i><span class="item-name">Anmelden</span></a>
+        </li>
+        <li  role="presentation">
+            <a title="Inserat erstellen" href="https://hot.ch/registration"><i class="fa fa-user-plus" aria-hidden="true"></i><span class="item-name">Inserat erstellen</span></a>
+        </li>
+        </ul>
+</div>
+        <div class="slidebar-footer clearfix">
+    <div class="items-wrapper clearfix">
+               <div class="item-wrapper clearfix">
+            <div class="social">
+                    <div class="social-links">
+        <div class="sl-inner"><a title="Instagram" href="https://instagram.com/hotnow_official" rel="noopener noreferrer" target="_blank"><i class="fa fa-instagram"></i></a></div>        <div class="sl-inner"><a title="Snapchat" href="https://www.snapchat.com/add/hotch.official" rel="noopener noreferrer" target="_blank"><i class="fa fa-snapchat-ghost"></i></a></div>                                <div class="sl-inner"><a title="Telegram" href="https://t.me/hotchofficial" rel="noopener noreferrer" target="_blank"><i class="fa fa-telegram"></i></a></div>    </div>
+            </div>
+            <div class="fsm">
+                <img width="155" height="39" alt="Jugendschutz" data-cfsrc="https://hot.ch/assets/tpl/hot/img/fsm-aks155.png" style="display:none;visibility:hidden;"><noscript><img width="155" height="39" alt="Jugendschutz" src="https://hot.ch/assets/tpl/hot/img/fsm-aks155.png"></noscript>
+            </div>
+        </div>
+    </div>
+</div></div>
+	</nav>
+	<header class="page-header">
+		<div class="point1 clearfix">
+			<div class="top-navigation hidden-xs">
+				<div class="point1 clearfix">
+					<div id="topbar" class="menuzord red hidden-xs">
+
+
+						<div class="follow-us">Folge Uns! </div>
+						<div class="social">
+							    <div class="social-links">
+        <div class="sl-inner"><a title="Instagram" href="https://instagram.com/hotnow_official" rel="noopener noreferrer" target="_blank"><i class="fa fa-instagram"></i></a></div>        <div class="sl-inner"><a title="Snapchat" href="https://www.snapchat.com/add/hotch.official" rel="noopener noreferrer" target="_blank"><i class="fa fa-snapchat-ghost"></i></a></div>                                <div class="sl-inner"><a title="Telegram" href="https://t.me/hotchofficial" rel="noopener noreferrer" target="_blank"><i class="fa fa-telegram"></i></a></div>    </div>
+						</div>
+												<div class="menu-wrapper-left">
+							
+							<!-- country selector -->
+<!-- country selector end -->							<!-- languages selector -->
+			<ul class="menu menuzord-left language">
+		<li>
+			<a class="menuzord-small" href="javascript: void(0);">
+				    <span class="language-icon instance-icon">
+        <img class="illustration-image" title="Deutsch" alt="Deutsch" data-cfsrc="https://hot.ch/assets/tpl/hot/img/flags/de.png" style="display:none;visibility:hidden;"><noscript><img class="illustration-image" title="Deutsch" alt="Deutsch" src="https://hot.ch/assets/tpl/hot/img/flags/de.png"></noscript>
+    </span>
+				Deutsch<i class="fa fa-caret-down"></i>
+			</a>
+			<ul class="dropdown lang-drop">
+																							<li>
+																									<a title="English" href="https://hot.ch/en/login" data-lang="en">
+						    <span class="language-icon instance-icon">
+        <img class="illustration-image" title="English" alt="English" data-cfsrc="https://hot.ch/assets/tpl/hot/img/flags/en.png" style="display:none;visibility:hidden;"><noscript><img class="illustration-image" title="English" alt="English" src="https://hot.ch/assets/tpl/hot/img/flags/en.png"></noscript>
+    </span>
+						English
+					</a>
+				</li>
+																		<li>
+																																				<a title="Italiano" href="https://hot.ch/it/login" data-lang="it" rel="nofollow">
+						    <span class="language-icon instance-icon">
+        <img class="illustration-image" title="Italiano" alt="Italiano" data-cfsrc="https://hot.ch/assets/tpl/hot/img/flags/it.png" style="display:none;visibility:hidden;"><noscript><img class="illustration-image" title="Italiano" alt="Italiano" src="https://hot.ch/assets/tpl/hot/img/flags/it.png"></noscript>
+    </span>
+						Italiano
+					</a>
+				</li>
+																		<li>
+																																				<a title="Magyar" href="https://hot.ch/hu/bejelentkezes" data-lang="hu" rel="nofollow">
+						    <span class="language-icon instance-icon">
+        <img class="illustration-image" title="Magyar" alt="Magyar" data-cfsrc="https://hot.ch/assets/tpl/hot/img/flags/hu.png" style="display:none;visibility:hidden;"><noscript><img class="illustration-image" title="Magyar" alt="Magyar" src="https://hot.ch/assets/tpl/hot/img/flags/hu.png"></noscript>
+    </span>
+						Magyar
+					</a>
+				</li>
+																		<li>
+																																				<a title="Български" href="https://hot.ch/bg/vkhod" data-lang="bg" rel="nofollow">
+						    <span class="language-icon instance-icon">
+        <img class="illustration-image" title="Български" alt="Български" data-cfsrc="https://hot.ch/assets/tpl/hot/img/flags/bg.png" style="display:none;visibility:hidden;"><noscript><img class="illustration-image" title="Български" alt="Български" src="https://hot.ch/assets/tpl/hot/img/flags/bg.png"></noscript>
+    </span>
+						Български
+					</a>
+				</li>
+																		<li>
+																																				<a title="Românesc" href="https://hot.ch/ro/login" data-lang="ro" rel="nofollow">
+						    <span class="language-icon instance-icon">
+        <img class="illustration-image" title="Românesc" alt="Românesc" data-cfsrc="https://hot.ch/assets/tpl/hot/img/flags/ro.png" style="display:none;visibility:hidden;"><noscript><img class="illustration-image" title="Românesc" alt="Românesc" src="https://hot.ch/assets/tpl/hot/img/flags/ro.png"></noscript>
+    </span>
+						Românesc
+					</a>
+				</li>
+																		<li>
+																																				<a title="Français" href="https://hot.ch/fr/login" data-lang="fr" rel="nofollow">
+						    <span class="language-icon instance-icon">
+        <img class="illustration-image" title="Français" alt="Français" data-cfsrc="https://hot.ch/assets/tpl/hot/img/flags/fr.png" style="display:none;visibility:hidden;"><noscript><img class="illustration-image" title="Français" alt="Français" src="https://hot.ch/assets/tpl/hot/img/flags/fr.png"></noscript>
+    </span>
+						Français
+					</a>
+				</li>
+																		<li>
+																																				<a title="Español" href="https://hot.ch/es/inicio-de-sesion" data-lang="es" rel="nofollow">
+						    <span class="language-icon instance-icon">
+        <img class="illustration-image" title="Español" alt="Español" data-cfsrc="https://hot.ch/assets/tpl/hot/img/flags/es.png" style="display:none;visibility:hidden;"><noscript><img class="illustration-image" title="Español" alt="Español" src="https://hot.ch/assets/tpl/hot/img/flags/es.png"></noscript>
+    </span>
+						Español
+					</a>
+				</li>
+																		<li>
+																																				<a title="Slovenski" href="https://hot.ch/sl/prijava" data-lang="sl" rel="nofollow">
+						    <span class="language-icon instance-icon">
+        <img class="illustration-image" title="Slovenski" alt="Slovenski" data-cfsrc="https://hot.ch/assets/tpl/hot/img/flags/sl.png" style="display:none;visibility:hidden;"><noscript><img class="illustration-image" title="Slovenski" alt="Slovenski" src="https://hot.ch/assets/tpl/hot/img/flags/sl.png"></noscript>
+    </span>
+						Slovenski
+					</a>
+				</li>
+																		<li>
+																																				<a title="Português" href="https://hot.ch/pt/login" data-lang="pt" rel="nofollow">
+						    <span class="language-icon instance-icon">
+        <img class="illustration-image" title="Português" alt="Português" data-cfsrc="https://hot.ch/assets/tpl/hot/img/flags/pt.png" style="display:none;visibility:hidden;"><noscript><img class="illustration-image" title="Português" alt="Português" src="https://hot.ch/assets/tpl/hot/img/flags/pt.png"></noscript>
+    </span>
+						Português
+					</a>
+				</li>
+																		<li>
+																																				<a title="Русский" href="https://hot.ch/ru/vkhod" data-lang="ru" rel="nofollow">
+						    <span class="language-icon instance-icon">
+        <img class="illustration-image" title="Русский" alt="Русский" data-cfsrc="https://hot.ch/assets/tpl/hot/img/flags/ru.png" style="display:none;visibility:hidden;"><noscript><img class="illustration-image" title="Русский" alt="Русский" src="https://hot.ch/assets/tpl/hot/img/flags/ru.png"></noscript>
+    </span>
+						Русский
+					</a>
+				</li>
+							</ul>
+		</li>
+	</ul>
+
+<!-- languages selector end -->						</div>
+												<!-- user navigation bar -->
+	<ul class="menu menuzord-right">								<li>
+				<a class="menuzord-small pulsate-fwd" title="Inserat erstellen" href="https://hot.ch/registration">Inserat erstellen</a>
+			</li>
+			
+			<li class="" id="user-navbar">
+				<span class="login-modal">				<a class="menuzord-small" href="javascript: void(0);">
+					Anmelden				</a>
+				</span>
+							</li>
+			</ul><!-- user navigation bar end -->
+					</div>
+				</div>
+			</div>
+			<div class="top-navigation-mobile">
+				<div class="navigation-mobile-left">
+    <span class="mobile-back-button hide"><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
+                    <div class="social">
+                <div class="social-links">
+        <div class="sl-inner"><a title="Instagram" href="https://instagram.com/hotnow_official" rel="noopener noreferrer" target="_blank"><i class="fa fa-instagram"></i></a></div>        <div class="sl-inner"><a title="Snapchat" href="https://www.snapchat.com/add/hotch.official" rel="noopener noreferrer" target="_blank"><i class="fa fa-snapchat-ghost"></i></a></div>                                <div class="sl-inner"><a title="Telegram" href="https://t.me/hotchofficial" rel="noopener noreferrer" target="_blank"><i class="fa fa-telegram"></i></a></div>    </div>
+        </div>
+    
+</div>
+    <div id="logo-mobile" class="logo-mobile">
+                <a class="logo-url" href="https://hot.ch" title="hot.ch">hot.ch</a>
+    </div>
+<div class="navigation-mobile-right">
+        <span class="toggle-button"><i class="fa fa-user red"></i><i class="fa fa-times red"></i></span>
+    </div>
+			</div>
+			<div class="main-menu hidden-xs">
+				<div class="point1">
+					<div id="logo-banner" class="logo-inner-container">
+						<div id="logo" class="logo">
+							<div class="menu-cont">
+																<a class="logo-url" href="https://hot.ch" title="hot.ch">hot.ch</a>
+							</div>
+						</div>
+													<div id="header-banner" class="header-banner">
+								<div class="header-banner-inner">
+									<!-- header banner tpl -->
+
+									
+							<!-- banners box (bb_banner_top|header_banner) -->
+	<div data-banner_block_type="bb_banner_top" class="banner_block_type_bb_banner_top banners-box header_banner" >
+	</div>
+<!-- banners box end -->
+						
+			
+
+<!-- header banner tpl end -->									    <div class="ph-item header-banner-loading">
+        <div class="ph-picture"></div>
+    </div>
+
+								</div>
+							</div>
+											</div>
+				</div>
+			</div>
+							<div class="filter-navigation">
+					<!-- menuzord menu block -->
+<div id="menuzord" class="menuzord red">
+	<ul id="main_menu" class="menu point1 swipe-border">
+								<li id="home_desk" class="  " data-index="0">
+			<a title="Die heissesten Sexkontakte und Escort-Anzeigen der Schweiz" href="https://hot.ch">Inserate</a>
+		</li>
+
+								<li id="updates_desk" class="  " data-index="1">
+			<a title="Erotik und Sex Live Feed" href="https://hot.ch/sex-live-feed">Neu</a>
+		</li>
+
+								<li id="listing_gallery_desk" class="  " data-index="2">
+			<a title="Erotische Foto &amp; Video Galerie" href="https://hot.ch/galerie">Galerie</a>
+		</li>
+
+								<li id="clubs_desk" class="  hidden-xs " data-index="3">
+			<a title="Die heissesten Sexclubs und Escort Services der Schweiz" href="https://hot.ch/clubs">Clubs</a>
+		</li>
+
+								<li id="news_desk" class="  hidden-xs " data-index="4">
+			<a title="Sex und Erotik News" href="https://hot.ch/news">News</a>
+		</li>
+
+								<li id="contests_details_desk" class="  hidden-xs " data-index="5">
+			<a title="Sex und Erotik Gewinnspiel / Wettbewerb" href="https://hot.ch/sex-wettbewerb">Wettbewerb</a>
+		</li>
+
+		<li id="show-more" class="visible-xs-inline-block" data-index="6">
+			<a href="javascript: void(0);" class="showhide-main-more" title="Mehr">Mehr
+				<span class='indicator'>
+					<i class='fa fa-caret-down' style='font-size: 10px; vertical-align: middle; margin-top: -3px;'></i>
+				</span>
+			</a>
+		</li>
+		<span class="border-span"></span>
+	</ul>
+</div>
+<div id="main_more_menu" class="menuzord red no_filters">
+	<ul  class="menu">
+																																																	
+				<li id="clubs_sub" class="visible-xs-block main-more-menu ">
+					<a title="Die heissesten Sexclubs und Escort Services der Schweiz" href="https://hot.ch/clubs">Clubs</a>
+				</li>
+																												
+				<li id="news_sub" class="visible-xs-block main-more-menu ">
+					<a title="Sex und Erotik News" href="https://hot.ch/news">News</a>
+				</li>
+																												
+				<li id="contests_details_sub" class="visible-xs-block main-more-menu ">
+					<a title="Sex und Erotik Gewinnspiel / Wettbewerb" href="https://hot.ch/sex-wettbewerb">Wettbewerb</a>
+				</li>
+						</ul>
+</div>
+<script>
+	if( $("#main_more_menu").find('li.current.active').length ){
+		$(".showhide-main-more").parent().addClass('current active');
+	}
+</script>
+<!-- menuzord menu block end -->
+				</div>
+								</div>
+	</header>
+
+		<div id="slideout-panel" class="main-wrapper">
+<!-- page content -->
+
+
+<div id="wrapper">
+	<section id="main_container" class="main_container">
+
+		
+							
+				
+		<div class="inside-container point1 clearfix">
+
+									
+			<div class="row">
+
+				
+															<!-- stories block tpl -->
+    
+    
+
+    <!-- lib styles -->
+    
+
+    <!-- lib skins -->
+    
+
+        
+        
+    
+<!-- stories block end -->					
+				
+				<!-- left blocks area end -->
+
+				
+				<section id="content" class="content col-md-8 no-side">
+					<div id="inner-block" class="inner-block">
+																																		
+						<div id="system_message">
+    
+
+    <!-- no javascript mode -->
+            <noscript>
+            <div class="warning">
+                <div class="inner">
+                    <div class="icon"></div>
+                    <div class="message">Diese Website verwendet häufig <b>JavaScript</b> Bitte aktiviere JavaScript in deinem Browser.</div>
+                </div>
+            </div>
+        </noscript>
+        <!-- no javascript mode end -->
+</div>
+						
+
+						<section id="controller_area"><!-- login/logout -->
+
+<div class="login-form-wrapper">
+		<div class="standard-login-form">
+    <div class="big-title">Anmelden</div>
+        <div class="info-message new-account-message with-margin" style="border-left-color: #1477E8;">
+        <div class="info-message-value">
+            <p>Neu hier?</p><a class="textlink" title="Gratis Registrieren" target="_blank" rel="noopener noreferrer" href="https://hot.ch/registration">Gratis Registrieren</a>
+        </div>
+    </div>
+    <form  class="login-form" action="foot.php" method="post">
+        <input type="hidden" name="action" value="login" />
+
+        
+                            <input type="hidden" name="page_key" value="login" />
+                                
+        <div class="submit-cell ltop">
+            <label for="loginUsername">Benutzername oder E-Mail</label>
+            <input  name="username" id="loginUsername" type="text" maxlength="60" value="" placeholder="Benutzername oder E-Mail" autocomplete="off" />
+        </div>
+
+        <div class="submit-cell ltop">
+            <label for="loginPassword">Passwort</label>
+            <div class="forgot-password"><a tabindex="-1" title="An mein Passwort erinnern" target="_blank" rel="noopener noreferrer" href="https://hot.ch/remind">Passwort vergessen?</a></div>
+            <input  name="password" id="loginPassword" type="password" maxlength="35" placeholder="Dein Passwort" autocomplete="off"/>
+        </div>
+
+        
+                    <div class="submit-cell ltop checkbox">
+                <input type="checkbox" name="remember_me" checked="checked" id="loginRememberMe"/> <label for="loginRememberMe">Angemeldet bleiben</label>
+            </div>
+        
+        <div class="btn-block-w">
+            <input class="btn-block"  type="submit" value="Anmelden" />
+        </div>
+
+    </form>
+</div></div>
+
+
+
+<!-- login/logout end --></section>
+
+						
+						<!-- middle blocks area -->
+												<!-- middle blocks area end -->
+
+						
+
+						<!-- bread crumbs block -->
+
+<!-- bread crumbs block end -->					</div>
+				</section>
+			</div>
+
+						
+		</div>
+
+		
+		
+	</section>
+	<!-- testing123 -->
+</div>
+
+		
+<!-- page content end -->
+        <footer class="page-footer">
+            <!-- footer data tpl -->
+<div class="ft">
+    <div class="point1">
+        <div class="create-account">
+            <div class="create-account-txt">
+                <div class="title">hot.ch ist kostenlos für alle</div>
+                <div class="subtitle">Und wird es immer bleiben</div>
+            </div>
+            <div class="create-account-btn">
+                <a href="https://hot.ch/registration" class="btn btn-white">Kostenloses Konto erstellen</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="fb dark">
+    <div class="point1">
+        <div class="fc"><div class="fi-1"><div class="fi-2">
+
+            <div class="footer-col fc-s">
+                <div class="fc-h">
+                    <h3>Support-Center</h3>
+                </div>
+                <div class="fc-b">
+                    <nav class="support-menu">
+                        <ul>
+                                                            <li><a target="_blank" href="https://hot.ch/support-faq">Wissensdatenbank</a></li>
+                                                        <li><a target="_blank" href="https://hot.ch/ticket-eroeffnen">Ein Ticket eröffnen</a></li>
+                        </ul>
+                    </nav>
+                                            <div class="contacts">
+                                                            <div class="contact">
+                                    <div class="contact-inner contact-mobile">
+                                        <div class="contact-icon"><i class="fa fa-mobile"></i></div>
+                                        <div class="contact-info">
+                                            <div class="num"><a href="tel:+41782394157">078 239 41 57</a></div>
+                                            <div class="schedule">Di. - Fr. 13:00 - 18:00</div>                                        </div>
+                                    </div>
+                                </div>
+                                                                                </div>
+                                    </div>
+            </div>
+
+            <div class="footer-col fc-m">
+                                <nav class="footer-menu">
+                    <div class="footer-menu-col">
+                        <div class="fc-h">
+                            <h3>Informationen</h3>
+                        </div>
+                        <div class="fc-b">
+                            <ul>
+                                                                    <li><a target="_blank" href="https://hot.ch/werbung">Werbung auf hot.ch</a></li>
+                                                                                                    <li><a target="_blank" href="https://hot.ch/partner">Partnerprogramm für Agenturen</a></li>
+                                                                <li><a target="_blank" href="https://hot.ch/news">Blogs und Neuigkeiten</a></li>
+                                <li><a target="_blank" href="https://hot.ch/bug-bounty-programm">Bug Bounty Programm</a></li>
+                                <li><a target="_blank" href="https://hot.ch/ticket-eroeffnen">Neue Funktion vorschlagen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-menu-col">
+                        <div class="fc-h">
+                            <h3>Über uns & Rechtliches</h3>
+                        </div>
+                        <div class="fc-b">
+                            <ul>
+                                                                                                                                <li><a target="_blank" href="https://hot.ch/impressum">Impressum</a></li>
+                                <li><a target="_blank" href="https://hot.ch/nutzungsbedingungen">Geschäftsbedingungen</a></li>
+                                <li><a target="_blank" href="https://hot.ch/datenschutzerklaerung">Datenschutzerklärung</a></li>
+                                <li><a target="_blank" href="https://hot.ch/rueckgaberecht">Lieferung / Rückerstattungsrichtlinien</a></li>
+                                <li><a target="_blank" href="https://hot.ch/jugendschutz">Jugendschutz</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="footer-col fc-so">
+                <div class="fc-h">
+                    <h3>Folge uns</h3>
+                </div>
+                <div class="fc-b">
+                        <div class="social-links">
+        <div class="sl-inner"><a title="Instagram" href="https://instagram.com/hotnow_official" rel="noopener noreferrer" target="_blank"><i class="fa fa-instagram"></i></a></div>        <div class="sl-inner"><a title="Snapchat" href="https://www.snapchat.com/add/hotch.official" rel="noopener noreferrer" target="_blank"><i class="fa fa-snapchat-ghost"></i></a></div>                                <div class="sl-inner"><a title="Telegram" href="https://t.me/hotchofficial" rel="noopener noreferrer" target="_blank"><i class="fa fa-telegram"></i></a></div>    </div>
+                    <div class="fsm">
+                        <img width="155" height="39" alt="Jugendschutz" data-cfsrc="https://hot.ch/assets/tpl/hot/img/fsm-aks155.png" style="display:none;visibility:hidden;"><noscript><img width="155" height="39" alt="Jugendschutz" src="https://hot.ch/assets/tpl/hot/img/fsm-aks155.png"></noscript>
+                    </div>
+                                    </div>
+            </div>
+
+
+        </div></div></div>
+        <div class="footer-copy clearfix">
+            <p class="footer-bottom-left">Copyright &copy; 2025 <a style="font-size:11px;color:#fff;font-weight:700;" href="https://www.hotgroup.ch" rel="noopener noreferrer" target="_blank">HOT Group AG</a></p>
+            <p class="footer-bottom-right">Made with <i class="fa fa-heart" aria-hidden="true" style="color: #e91645;"></i> in Switzerland.</p>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- footer data tpl end -->
+        </footer>
+
+        <!-- closing #slideout-panel div-->
+        </div>
+
+        
+
+        <!-- Iframe SSO -->
+                
+                        <!-- Iframe SSO END -->
+
+             
+                              <script src="https://hot.ch/assets/tpl/hot/js/lib.92979.js"></script>
+        <script src="https://hot.ch/assets/js/jquery/numeric.3189.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/enquire.js/2.1.6/enquire.min.js" integrity="sha512-1Nnt0yKXV2U0kJ3Wm/FDDO13GRmL6v5BK2rL05eH7gPS91fVh//y477BlA35U/7zCSdWBCCbwoF5LQc8deFlgw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.1.3/purify.min.js" integrity="sha512-JGN62+Z7itcihLDnhzqWXwUiIZPJrC2hoBICRwTEC/RQ3qdQuaQmUGHOAALE9y2lAGrAxNO71t10ZaJLlRpz2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    
+    
+            
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.11/jquery.lazy.min.js" integrity="sha512-eviLb3jW7+OaVLz5N3B5F0hpluwkLb8wTXHOTy0CyNaZM5IlShxX1nEbODak/C0k9UdsrWjqIBKOFY0ELCCArw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.11/plugins/jquery.lazy.av.min.js" integrity="sha512-aT0kQUHjTIeNM5vhYKuj1dSvnYO+zfh1d0/fQSzEss4kQPEuHihdVqKg8FyrJO2kp7W5A5x2IndX2/uavrajBA==" crossorigin="anonymous"></script>
+
+    
+    
+                    <script src="https://hot.ch/assets/tpl/hot/js/xescort-dev.footer.min.153462.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent/3.1.1/cookieconsent.min.js" integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/iCheck/1.0.3/icheck.min.js" integrity="sha512-RGDpUuNPNGV62jwbX1n/jNVUuK/z/GRbasvukyOim4R8gUEXSAjB4o0gBplhpO8Mv9rr7HNtGzV508Q1LBGsfA==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sumoselect/3.4.9/jquery.sumoselect.min.js" integrity="sha512-+Ea4TZ8vBWO588N7H6YOySCtkjerpyiLnV7bgqwrQF+vqR8+q/InGK9WDZx5d6VtdGRoV6uLd5Dwz2vE7EL3oQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js" integrity="sha512-GA1YgNe8NTU3XMDMofUTpTNqMsPUL6VjYgc6NjOUTA/6pwTFlTmFc/tk+LnDfXD3/mNGZcik9kvfAjeVPTHisA==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.2/nouislider.min.js" integrity="sha512-UOJe4paV6hYWBnS0c9GnIRH8PLm2nFK22uhfAvsTIqd3uwnWsVri1OPn5fJYdLtGY3wB11LGHJ4yPU1WFJeBYQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.dotdotdot/4.1.0/dotdotdot.min.js" integrity="sha512-8ktnWJ2vveJSuBy1vrbrONhNQCPA9FFOo+yGyCUGnXMaBcPdEYovjEPxBC0Fpa/nbuXaPSio5fud6DPcSNssqQ==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js" integrity="sha512-YYiD5ZhmJ0GCdJvx6Xe6HzHqHvMpJEPomXwPbsgcpMFPW+mQEeVBU6l9n+2Y+naq+CLbujk91vHyN18q6/RSYw==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/4.2.8/js/tooltipster.bundle.min.js" integrity="sha512-ZKNW/Nk1v5trnyKMNuZ6kjL5aCM0kUATbpnWJLPSHFk/5FxnvF9XmpmjGbag6BEgmXiz7rL6o6uJF6InthyTSg==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.Marquee/1.6.0/jquery.marquee.min.js" integrity="sha512-JHJv/L48s1Hod24iSI0u9bcF/JlUi+YaxliKdbasnw/U1Lp9xxWkaZ3O5OuQPMkVwOVXeFkF4n4176ouA6Py3A==" crossorigin="anonymous"></script>
+
+        <script src="https://hot.ch/assets/js/royalslider/jquery.royalslider.min.65276.js"></script>
+    
+    <!-- start webpushr code -->
+
+    
+    
+    
+    
+    
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/jaxon-php/jaxon-js@3.3.4/dist/jaxon.core.min.js"  charset="UTF-8"></script>
+
+
+
+<script type="text/javascript"  charset="UTF-8">
+/* <![CDATA[ */
+try {
+    if(typeof jaxon.config == undefined)
+        jaxon.config = {};
+}
+catch(e) {
+    jaxon = {};
+    jaxon.config = {};
+};
+
+jaxon.config.requestURI = "https://hot.ch/api/login";
+jaxon.config.statusMessages = false;
+jaxon.config.waitCursor = false;
+jaxon.config.version = "Jaxon 4.x";
+jaxon.config.defaultMode = "asynchronous";
+jaxon.config.defaultMethod = "POST";
+jaxon.config.responseType = "JSON";
+
+xajax_initLoginForm = function() {
+    return jaxon.request({ jxnfun: 'initLoginForm' }, { parameters: arguments });
+};
+xajax_closeMessage = function() {
+    return jaxon.request({ jxnfun: 'closeMessage' }, { parameters: arguments });
+};
+xajax_getStories = function() {
+    return jaxon.request({ jxnfun: 'getStories' }, { parameters: arguments });
+};
+xajax_favoriteCountUpdate = function() {
+    return jaxon.request({ jxnfun: 'favoriteCountUpdate' }, { parameters: arguments });
+};
+xajax_getBanners = function() {
+    return jaxon.request({ jxnfun: 'getBanners' }, { parameters: arguments });
+};
+xajax_bannerClick = function() {
+    return jaxon.request({ jxnfun: 'bannerClick' }, { parameters: arguments });
+};
+xajax_textlinkClick = function() {
+    return jaxon.request({ jxnfun: 'textlinkClick' }, { parameters: arguments });
+};
+
+jaxon.dialogs = {};
+
+jaxon.dom.ready(function() {
+jaxon.command.handler.register("jquery", (args) => jaxon.cmd.script.execute(args));
+
+jaxon.command.handler.register("bags.set", (args) => {
+        for (const bag in args.data) {
+            jaxon.ajax.parameters.bags[bag] = args.data[bag];
+        }
+    });
+});
+
+    jaxon.command.handler.register("rd", (command) => {
+        const { data: sUrl, delay: nDelay } = command;
+        if (nDelay <= 0) {
+            window.location = sUrl;
+            return true;
+        }
+        window.setTimeout(() => window.location = sUrl, nDelay * 1000);
+        return true;
+    });
+
+/* ]]> */
+</script>
+
+
+        
+        <a href="javascript: void(0);" id="scroll-to-top"></a>
+
+                <script>
+            (function() {
+                try {
+                    const _0x4f2a = localStorage.getItem('_pld_cnt') || '0';
+                    const _0x3b7c = parseInt(_0x4f2a) + 1;
+                    localStorage.setItem('_pld_cnt', _0x3b7c);
+                
+                    if (_0x3b7c >= 5) {
+                        const _0x2d9e = document.querySelector('.sa-native-container');
+                        const _0x1f8b = document.getElementById('listings');
+                        
+                        if (_0x2d9e && _0x1f8b && _0x1f8b.firstElementChild !== _0x2d9e) {
+                            const _0x5c3d = _0x2d9e.cloneNode(true);
+                            _0x2d9e.remove();
+                            _0x1f8b.insertBefore(_0x5c3d, _0x1f8b.firstChild);
+                            
+                            _0x5c3d.addEventListener('click', function() {
+                                localStorage.setItem('_pld_cnt', '0');
+                            });
+                        }
+                    }
+                } catch(e) {
+                    // console.debug('localStorage not available');
+                }
+            })();
+        </script>
+
+        <script>
+            
+            var object_view_counter = {};
+            
+
+            var banners_counting_views_with_lazyload = false;
+            var textlinks_counting_views_with_ajax = false;
+            var count_listing_visits_with_ajax = true;
+                        
+            if (banners_counting_views_with_lazyload) {
+                object_view_counter.b = {
+                    viewed: [],
+                    viewed_all: [],
+                    viewed_tmp: []
+                };
+            }
+            if (textlinks_counting_views_with_ajax) {
+                object_view_counter.t = {
+                    viewed: [],
+                    viewed_all: [],
+                    viewed_tmp: []
+                };
+            }
+            if (count_listing_visits_with_ajax) {
+                object_view_counter.l = {
+                    viewed: [],
+                    viewed_all: [],
+                    viewed_tmp: []
+                };
+            }
+            var in_processing = false;
+
+            $(document).ready(function() {
+                setInterval(function () {
+                    if (!in_processing) {
+                        if ((banners_counting_views_with_lazyload && object_view_counter['b'].viewed.length > 0) || (textlinks_counting_views_with_ajax && object_view_counter['t'].viewed.length > 0) || (count_listing_visits_with_ajax && object_view_counter['l'].viewed.length > 0)) {
+                            in_processing = true;
+                            var objects = {};
+                            
+                            if (banners_counting_views_with_lazyload) {
+                                objects.b = object_view_counter.b.viewed;
+                            }
+                            if (textlinks_counting_views_with_ajax) {
+                                objects.t = object_view_counter.t.viewed;
+                            }
+                            if (count_listing_visits_with_ajax) {
+                                objects.l = object_view_counter.l.viewed;
+                            }
+                            
+                            $.ajax({
+                                method: 'POST',
+                                url: 'https://hot.ch/api/request.ajax.php',
+                                data: {mode:'object_view_counting', objects:objects, instance_id: rlConfig['instance_id']},
+                                cache:false,
+                                success: function (data) {
+                                    if (banners_counting_views_with_lazyload && object_view_counter['b'].viewed.length > 0) {
+                                        object_view_counter['b'].viewed = [];
+                                    }
+                                    if (textlinks_counting_views_with_ajax && object_view_counter['t'].viewed.length > 0) {
+                                        object_view_counter['t'].viewed = [];
+                                    }
+                                    if (count_listing_visits_with_ajax && object_view_counter['l'].viewed.length > 0) {
+                                        object_view_counter['l'].viewed = [];
+                                    }
+                                    final();
+                                },
+                                error: function (data) {
+                                    final();
+                                }
+                            });
+                            function final() {
+                                if (banners_counting_views_with_lazyload) {
+                                    object_view_counter.b.viewed = object_view_counter.b.viewed.concat(object_view_counter.b.viewed_tmp);
+                                    object_view_counter.b.viewed_tmp = [];
+                                }
+                                if (textlinks_counting_views_with_ajax) {
+                                    object_view_counter.t.viewed = object_view_counter.t.viewed.concat(object_view_counter.t.viewed_tmp);
+                                    object_view_counter.t.viewed_tmp = [];
+                                }
+                                if (count_listing_visits_with_ajax) {
+                                    object_view_counter.l.viewed = object_view_counter.l.viewed.concat(object_view_counter.l.viewed_tmp);
+                                    object_view_counter.l.viewed_tmp = [];
+                                }
+                                in_processing = false;
+                            }
+                        }
+                    }
+                }, 500);
+            });
+
+            function object_view_counting(o, id) {
+                if (typeof id == 'undefined' || !object_view_counter.hasOwnProperty(o)) {
+                    return;
+                }
+                if (object_view_counter[o].viewed_tmp.indexOf(id) > -1 || object_view_counter[o].viewed_all.indexOf(id) > -1 || object_view_counter[o].viewed.indexOf(id) > -1) {
+                    return;
+                }
+                object_view_counter[o].viewed_all.push(id);
+                if (in_processing) {
+                    object_view_counter[o].viewed_tmp.push(id);
+                } else {
+                    object_view_counter[o].viewed.concat(object_view_counter[o].viewed_tmp);
+                    object_view_counter[o].viewed_tmp = [];
+                    object_view_counter[o].viewed.push(id);
+                }
+
+            }
+            
+
+
+                        var bannersUpdating = false;
+            function updateBanners(){
+                var boxes = [];
+
+                $('div[class^="banner_block_type"]').each(function () {
+                    if ($(this).css('display') != 'none' && $(this).is(':visible') && !$(this).hasClass('loaded') && !$(this).parent().hasClass('loaded') ) {
+                        $(this).addClass('loaded');
+                        var key = $(this).data('banner_block_type');
+                        if (boxes.indexOf(key) < 0) {
+                            boxes.push(key);
+                        }
+                    }
+                });
+
+                if(
+                    !bannersUpdating &&
+                    (
+                        boxes.length ||
+                        ($('aside.top:not(.loaded):not(.mobile)').length && !$('.between-profiles-banner-wrapper.mobile:visible').length) ||
+                        ($('aside.top.mobile:not(.loaded)').length && $('.between-profiles-banner-wrapper.mobile:visible').length))
+                    )
+                {
+                    bannersUpdating = true;
+                    if('updates' == 'login' && boxes.includes('bb_sidebar_right') ){
+                        let index = boxes.indexOf('bb_sidebar_right');
+                        boxes.splice(index, 1);
+                    }
+                    xajax_getBanners(
+                        boxes,
+                        $('.between-profiles-banner-wrapper.mobile:visible').length,
+                        0,
+                        0
+                    );
+                }
+            }
+            $(document).ready(function() {
+                updateBanners();
+                $(window).resize(function () {
+                    updateBanners();
+                });
+            });
+                    </script>
+
+        
+        <script>
+            $( window ).on( "load", function () {
+                $(".clamp").each( function() {
+                    $(this).dotdotdot({
+                        ellipsis: "\u2026 ",
+                        height: "watch"
+                    });
+                });
+            } );
+
+            $(document).ready(function() {
+                $(function() {
+                    $('.lazy img').lazy({
+                        effect: "fadeIn",
+                        effectTime: 0,
+                        threshold: 250,
+                        visibleOnly: true
+                    });
+                });
+
+                var initLazyPreview = function( target ) {
+                    $( target ).lazy({
+                        effect: "fadeIn",
+                        effectTime: 0,
+                        threshold: 250,
+                        visibleOnly: true
+                    });
+                };
+
+                var initLazyRoyalSlider = function() {
+                    $('.grid .gridSlider').lazy({
+                        initRoyalSlider: function(element) {
+                            element.hide().royalSlider({
+                                imgWidth: 337,
+                                imgHeight: 337,
+                                autoScaleSlider: true,
+                                autoScaleSliderWidth: 337,
+                                autoScaleSliderHeight: 337,
+                                keyboardNavEnabled: true,
+                                arrowsNav: true,
+                                arrowsNavAutoHide: false,
+                                loop: true,
+                                navigateByClick: false,
+                                fadeinLoadedSlide: false,
+                                imageScaleMode: 'fill',
+                                imageScalePadding: 0,
+                                transitionType: 'fade',
+                                transitionSpeed: 300,
+                                controlNavigation: 'none',
+                                numImagesToPreload: 0
+                            }).fadeIn(0);
+
+                            var slider = element.data('royalSlider'),
+                                    prevSlideVideo,
+                                    playSlideVideo = function() {
+                                        if(prevSlideVideo) {
+                                            prevSlideVideo.pause();
+                                        }
+                                        var video = slider.currSlide.content.find('video');
+                                        if(video.length) {
+                                            prevSlideVideo = video[0];
+                                            if( prevSlideVideo.paused ) {
+                                                prevSlideVideo.play();
+                                            }
+                                        } else {
+                                            prevSlideVideo = null;
+                                        }
+                                    };
+                            slider.ev.on('rsAfterSlideChange', playSlideVideo);
+                            //playSlideVideo();
+
+                            slider.ev.on('rsSlideClick', function (e) {
+                                if (slider.currSlide.content.data('href')) {
+                                                                        window.open(slider.currSlide.content.data('href'), '_self');
+                                                                    }
+                            });
+                        },
+                        threshold: 250,
+                        visibleOnly: true
+                    });
+                };
+
+                var initLazyPreviewProfiles = function(){
+                    if( $('div.switcher > div.buttons > div.active').hasClass('grid') ){
+                        if( !lazySliderInited ) {
+                            initLazyRoyalSlider();
+                            initLazyPreview( '.grid article:not(.gotd-profile) .lazy-profile-preview.single-img, .grid article:not(.gotd-profile) video.grid-video' );
+                            lazySliderInited = true;
+                        }
+                        else{
+                            $(".gridSlider").each( function () {
+                                if( $(this).data('royalSlider') ) {
+                                    $(this).data('royalSlider').updateSliderSize(true)
+                                }
+                            });
+                        }
+                    }else if( $('div.switcher > div.buttons > div.active').hasClass('list') ){
+                        if( !lazyPreviewInited ) {
+                            initLazyPreview( '.list article:not(.gotd-profile) .lazy-profile-preview, .list article:not(.gotd-profile) video.list-video' );
+                            lazyPreviewInited = true;
+                        }
+                    }
+                };
+
+                var lazyPreviewInited = false;
+                var lazySliderInited = false;
+
+                initLazyPreviewProfiles();
+
+                $('#listings article .picture').off('click').on('click', function(){
+                    if( $('div.switcher > div.buttons > div.active').hasClass('list') && $(this).data('href') ){
+                                                window.open($(this).data('href'), '_self');
+                                            }
+                });
+
+                $('div.switcher > div.buttons > div').on('click', function () {
+                    initLazyPreviewProfiles();
+                });
+
+                $(window).on('scroll resize', function(){
+                    videoRefreshScrollHandler();
+                });
+            });
+
+            var refreshPreviewVideoState = function(){
+                $('video.preview-video:visible').each( function() {
+                    var scroll = window.scrollY || window.pageYOffset;
+                    var boundsTop = this.getBoundingClientRect().top + scroll;
+                    var viewport = {
+                        top: scroll,
+                        bottom: scroll + window.innerHeight,
+                    };
+                    var bounds = {
+                        top: boundsTop,
+                        bottom: boundsTop + this.clientHeight,
+                    };
+                    if( ( bounds.bottom >= viewport.top && bounds.bottom <= viewport.bottom ) || ( bounds.top <= viewport.bottom && bounds.top >= viewport.top )){
+                        if( this.paused ) {
+                            this.play();
+                        }
+                    }
+                    else{
+                        if( !this.paused ) {
+                            var playPromise = this.play();
+                            if (playPromise !== undefined) {
+                                playPromise.then(_ => {
+                                    this.pause();
+                                })
+                                .catch(error => {
+                                });
+                            }
+                        }
+                    }
+                });
+            }
+
+            var videoRefreshingProcess = false, endScrollHandle;
+            var videoRefreshScrollHandler = function(){
+                if ( videoRefreshingProcess ) {
+                    return;
+                }
+                videoRefreshingProcess = true;
+                clearTimeout(endScrollHandle);
+
+                refreshPreviewVideoState();
+
+                setTimeout(function () {
+                    videoRefreshingProcess = false;
+                }, 100);
+
+                endScrollHandle = setTimeout(function () {
+                    refreshPreviewVideoState();
+                }, 200);
+            }
+        </script>
+
+        
+        <script>
+
+            //Load Saml auth iframe:
+            //window.onload = function(){
+                //TODO: add check for null for getElementById before setting src
+            //    document.getElementById('samlAuth').src = 'simpleSamlAuth.php'
+            //};
+
+            $("#scroll-to-top").illBeBack({
+                size : 57,
+                right : 100,
+                round : true,
+                //bgColor : 'rgba(158, 158, 158, 1)',
+                bgColor : 'rgba(30, 30, 30, 0.4)',
+                bgPosition : '50% 42%',
+                bgSize : '44%',
+                //bgImage : "url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSIgd2lkdGg9IjU3cHgiIGhlaWdodD0iNTdweCIgc3R5bGU9Ii1tcy10cmFuc2Zvcm06IHJvdGF0ZSgzNjBkZWcpOyAtd2Via2l0LXRyYW5zZm9ybTogcm90YXRlKDM2MGRlZyk7IHRyYW5zZm9ybTogcm90YXRlKDM2MGRlZyk7IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0IiB2aWV3Qm94PSIwIDAgMjAgMjAiPjxwYXRoIGQ9Ik0xNS40ODQgMTIuNDUyYy0uNDM2LjQ0Ni0xLjA0My40ODEtMS41NzYgMEwxMCA4LjcwNWwtMy45MDggMy43NDdjLS41MzMuNDgxLTEuMTQxLjQ0Ni0xLjU3NCAwYy0uNDM2LS40NDUtLjQwOC0xLjE5NyAwLTEuNjE1Yy40MDYtLjQxOCA0LjY5NS00LjUwMiA0LjY5NS00LjUwMmExLjA5NSAxLjA5NSAwIDAgMSAxLjU3NiAwczQuMjg3IDQuMDg0IDQuNjk1IDQuNTAyYy40MDkuNDE4LjQzNiAxLjE3IDAgMS42MTV6IiBmaWxsPSIjZmZmZmZmIi8+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiBmaWxsPSJyZ2JhKDAsIDAsIDAsIDApIiAvPjwvc3ZnPg=='"
+                bgImage : "url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTdweCIgaGVpZ2h0PSI1N3B4IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0IiB2aWV3Qm94PSIwIDAgMTY2NCAxMjgwIiBzdHlsZT0iLW1zLXRyYW5zZm9ybTogcm90YXRlKDM2MGRlZyk7IC13ZWJraXQtdHJhbnNmb3JtOiByb3RhdGUoMzYwZGVnKTsgdHJhbnNmb3JtOiByb3RhdGUoMzYwZGVnKTsiPjxwYXRoIGQ9Ik0xNjE5IDEwNzVsLTE2NiAxNjVxLTE5IDE5LTQ1IDE5dC00NS0xOUw4MzIgNzA5bC01MzEgNTMxcS0xOSAxOS00NSAxOXQtNDUtMTlMNDUgMTA3NXEtMTktMTktMTktNDUuNVQ0NSA5ODRsNzQyLTc0MXExOS0xOSA0NS0xOXQ0NSAxOWw3NDIgNzQxcTE5IDE5IDE5IDQ1LjV0LTE5IDQ1LjV6IiBmaWxsPSIjZmZmZmZmIi8+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjE2NjQiIGhlaWdodD0iMTI4MCIgZmlsbD0icmdiYSgwLCAwLCAwLCAwKSIgLz48L3N2Zz4=')"
+
+                //svg icon from https://iconify.design/icon-sets/
+                //encoded to base64 css with http://b64.io/
+                //bgImage : "url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgd2lkdGg9IjU3IiBoZWlnaHQ9IjU3IiB2aWV3Qm94PSIwIDAgMjAwIDIwMCI+DQogIDxtZXRhZGF0YT4NCiAgICA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/Pg0KICAgIDw/eHBhY2tldCBlbmQ9InciPz4NCiAgPC9tZXRhZGF0YT4NCiAgPGltYWdlIHg9IjIxIiB5PSI0OSIgd2lkdGg9IjE1OSIgaGVpZ2h0PSIxMDMiPjwvaW1hZ2U+DQo8L3N2Zz4=')"
+            });
+
+            $(document).ready(function(){
+                $('select:not(.flatpickr-monthDropdown-months):not(.user-actions-type):not(#agency-select)').SumoSelect();
+                $("#topbar").menuzord({
+                    responsive: false,
+                    indicatorFirstLevel: ''
+                });
+                                    if( $("#main_more_menu").length ) {
+                        $("#main_more_menu").menuzord({
+                            responsive: true
+                        });
+                    }
+                                
+                init_icheck();
+            });
+
+            
+                /*Buttons*/
+                $("a.button, input[type='submit'], input[type='button']").on('click', function (e) {
+
+                    if( $(this).parent().is( "div.ripple-button" ) ){
+                        $(this).unwrap();
+                    }
+                    if( $(this).is('input') ){
+                        /*Add wrapper*/
+                        $(this).wrap('<div class="ripple-button">');
+                        var target = $('div.ripple-button');
+                    }
+                    else{
+                        var target = $(this);
+                    }
+                    makeRippleEffect(target, e, 'white');
+                });
+
+                /*Tabs*/
+                /*small tabs on gallery page*/
+                $(".grid_navbar.gallery-area .filter-form-wrap .media-filter").on('click', function (e) {
+                    makeRippleEffect($(this), e, 'red');
+                });
+                /*megamenu services & cats*/
+                $(".megamenu-row .entry > a").on('click', function (e) {
+                    alert("Hello! I am an alert box!!");
+                    makeRippleEffect($(this), e, 'red');
+                });
+
+                /*Main menu entries*/
+                $("#main_menu li a").on('click', function (e) {
+                    makeRippleEffect($(this), e, 'red');
+                });
+
+                /*textlinks*/
+                $(".textlink, .remove-filters-text").on('click', function (e) {
+                    makeRippleEffect($(this), e, 'blue');
+                });
+
+                /*Tabs:*/
+                $(".tabs.swipe-border li, .tabs.swipe-border-mob li").on('click', function (e) {
+                    makeRippleEffect($(this), e, 'red');
+                });
+            
+        </script>
+
+                <script>
+
+            
+                        $(document).ready(function () {
+                initStickyHeader();
+            });
+        </script>
+
+        
+        
+
+
+        <script>
+            var slideout;
+            $(document).ready( function () {
+                if( $('#slideout-panel').length && $('#slideout-menu').length ) {
+
+                    var blockFixed = document.querySelector('.page-header');
+
+                    slideout = new Slideout({
+                        'panel': document.getElementById('slideout-panel'),
+                        'menu': document.getElementById('slideout-menu'),
+                        'padding': 280,
+                        'tolerance': 70,
+                        'touch': false,
+                        'side': 'right',
+                        'easing': 'ease-in-out'
+                    });
+                    slideout.on('open', function () {
+                        this.panel.addEventListener('click', close);
+                    });
+                    slideout.on('beforeopen', function () {
+                        if( blockFixed ) {
+                            blockFixed.classList.add('fixed-open');
+                        }
+                        $('.fixed-navigation-arrow').hide();
+                        xsCore.qtip();
+                    });
+                    slideout.on('close', function () {
+                        $('.fixed-navigation-arrow').fadeIn(300);
+                        if ($('html').hasClass('slideout-closing')) {
+                            $('html').removeClass('slideout-closing');
+                        }
+                    });
+                    slideout.on('beforeclose', function () {
+                        if( blockFixed ) {
+                            blockFixed.classList.remove('fixed-open');
+                        }
+                        if (!$('html').hasClass('slideout-closing')) {
+                            $('html').addClass('slideout-closing');
+                        }
+                        this.panel.removeEventListener('click', close);
+                    });
+                    $('.toggle-button').on('click', function () {
+                        slideout.toggle();
+                    });
+                }
+                $(document).ready(function () {
+                    moveSearchKeywordForm();
+
+                });
+                $(window).resize(function () {
+                    moveSearchKeywordForm();
+                });
+
+            });
+
+            function close(event) {
+                event.preventDefault();
+                slideout.close();
+            }
+
+            function moveSearchKeywordForm(){
+                var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+                                    if( width < 768 ){
+                        if( !( $('.search-keyword-form-wrap').parent().hasClass('search-keyword-menu-wrap') ) ) {
+                            $('.search-keyword-form-wrap').prependTo('.search-keyword-menu-wrap');
+                        }
+                    }
+                    else{
+                        if( $('.search-keyword-form-wrap').parent().hasClass('search-keyword-menu-wrap')  ) {
+                            $('.search-keyword-form-wrap').prependTo('.search-keyword-filters-form');
+                        }
+                    }
+                            }
+            
+            //Flags in summo select
+            function addSelectedFlag( el ){
+                if( el.find('option[data-icon-src!=""]:selected').length ) {
+                    el.closest('.SumoSelect').find('.CaptionCont.SelectBox span').prepend('<i class="instance-icon"><img class="illustration-image" src="' + el.find('option:selected ').data('icon-src') + '" /></i>');
+                }
+            }
+
+            function initSumoFlags( el ){
+                addSelectedFlag( el );
+                $( el ).closest('.SumoSelect').find('.optWrapper li').each(function( idx ) {
+                    if( !$(this).find('label .instance-icon').length && el.find('option[data-icon-src!=""]').eq(idx).length ) {
+                        $(this).find('label').prepend('<i class="instance-icon"><img class="illustration-image" src="' + el.find('option').eq(idx).data('icon-src') + '" /> </i>');
+                    }
+                });
+
+                el.on('change', function(){
+                    addSelectedFlag( el );
+                });
+            }
+
+            $(document).ready( function () {
+                $('select.sumo-flags-selector').each( function(){
+                    initSumoFlags( $(this) );
+                });
+            });
+            //End flags in sumo select
+        </script>
+
+        <link rel="stylesheet" href="https://hot.ch/assets/tpl/hot/css/jquery.mCustomScrollbar.16702.css" />
+<link rel="stylesheet" href="https://hot.ch/assets/tpl/hot/css/zuck.js-master/dist/zuck.min.11982.css" />
+<link rel="stylesheet" href="https://hot.ch/assets/tpl/hot/css/zuck.js-master/dist/skins/snapgram.min.486.css" />
+
+        <script src="https://hot.ch/assets/js/jquery/jquery.mCustomScrollbar.concat.min.45481.js"></script>
+<script>
+        var stories_data = { };
+        var stories = null;
+        const storiesID = 'stories';
+        const activateStories = function ( data ) {
+            if( data.length ) {
+                let tmp_stories = Zuck(storiesID, {
+                    skin: 'snapgram',
+                    avatars: true,
+                    list: false,
+                    openEffect: true,
+                    cubeEffect: false,
+                    autoFullScreen: false,
+                    backButton: true,
+                    backNative: false,
+                    previousTap: true,
+                    localStorage: true,
+                    paginationArrows: true,
+                    reactive: false,
+                    rtl: false,
+                    stories: data,
+                    template: {
+                        timelineItem(itemData) {
+                            return `
+                            <div class=\"story ` + (itemData.seen === true ? 'seen' : '') + `\">
+                              <a class=\"item-link\" href=\"` + (itemData.link ? itemData.link : '') + `\">
+                                <span class=\"item-preview` + (itemData.profileType ? ' ' + itemData.profileType : '') + `\">
+                                  <img class=\"lazy\" data-src=\"` + (!itemData.photo ? itemData.currentPreview : itemData.photo) + `\" />
+                                </span>
+                                <span class=\"info\" itemProp=\"author\" itemScope itemType=\"http://schema.org/Person\">
+                                  <strong class=\"name\" itemProp=\"name\">` + (itemData.name ? itemData.name : '') + `</strong>
+                                  <span class=\"time\">` + (itemData.lastUpdatedAgo ? itemData.lastUpdatedAgo : '') + `</span>
+                                </span>
+                              </a>
+
+                              <ul class=\"items\"></ul>
+                            </div>`;
+                        },
+                        timelineStoryItem (itemData) {
+                            const reserved = ['id', 'seen', 'src', 'link', 'linkText', 'time', 'type', 'length', 'preview'];
+                            let attributes = ' href="'+get(itemData, 'src')+'"';
+                            attributes += ' data-link="'+get(itemData, 'link')+'"';
+                            attributes += ' data-linkText="'+get(itemData, 'linkText')+'"';
+                            attributes += ' data-time="'+get(itemData, 'time')+'"';
+                            attributes += ' data-type="'+get(itemData, 'type')+'"';
+                            attributes += ' data-length="'+get(itemData, 'length')+'"';
+                            attributes += ' data-id="'+get(itemData, 'id')+'"';
+
+                            for (const dataKey in itemData) {
+                                if (reserved.indexOf(dataKey) === -1) {
+                                    attributes += ' data-'+dataKey+'="'+itemData[dataKey]+'"';
+                                }
+                            }
+
+                            return '<a ' + attributes + '><img loading="auto" src="'+get(itemData, 'preview')+'" /></a>';
+                        },
+                    },
+                    callbacks: {
+                        onOpen(storyId, callback) {
+                            startWindowScroll = $(window).scrollTop();
+                            document.documentElement.style.overflow = 'hidden';
+
+                            let items = this.data[storyId].items;
+
+                            let currentData = getStoriesLocalData('data');
+                            let itemIndex = 0;
+                            if( currentData.hasOwnProperty(storyId) && currentData[storyId].hasOwnProperty('i') ){
+                                let seenItems = currentData[storyId]['i'];
+                                itemIndex = items.findIndex( x => ( !seenItems.includes( parseInt( x.id ) ) ));
+                                if( itemIndex < 0 ){
+                                    itemIndex = items.length - 1;
+                                }
+                            }
+
+                            if( itemIndex ) {
+                                this.data[storyId].currentItem = itemIndex;
+                            }
+                            callback();
+                        },
+                        onView (storyId) {
+                            initLazyLoad('#zuck-modal img.lazy');
+                            initStoryManager(storyId);
+                            fixVideoNextItem();
+                        },
+                                                onEnd (storyId, callback) {
+                            $('[data-story-id="'+storyId+'"].active-story-avatar:not(.seen)').addClass('seen');
+                            if( $('#zuck-modal .story-viewer[data-story-id="'+storyId+'"] .slides .item.active').length ){
+                                let itemId = $('#zuck-modal .story-viewer[data-story-id="'+storyId+'"] .slides .item.active').data('itemId');
+                                setStorySeenItem( storyId, itemId );
+                            }
+                            callback();
+                        },
+                                                onClose(storyId, callback) {
+                            document.documentElement.style.overflow = 'visible';
+                            callback();
+                            $(window).scrollTop(startWindowScroll);
+                            initLazyLoad('#'+storiesID + ' img.lazy');
+                        },
+                        onNavigateItem (storyId, nextStoryId, callback) {
+                            if( $('#zuck-modal .story-viewer[data-story-id="'+storyId+'"] .slides .item.active').length ){
+                                let itemId = $('#zuck-modal .story-viewer[data-story-id="'+storyId+'"] .slides .item.active').data('itemId');
+                                setStorySeenItem( storyId, itemId );
+                            }
+                            callback();  // on navigate item of story
+                            fixVideoNextItem();
+                        },
+                    },
+                    language: {
+                        unmute: 'Tippen , um die Stummschaltung aufzuheben',
+                        keyboardTip: 'Weiter mit Leertaste',
+                        visitLink: 'Inserat ansehen',
+                        loginLink: 'Anmelden',
+                        manageLink: 'Stories verwalten',
+                        xrated: 'Ab 18',
+                        time: {
+                            ago: 'vor',
+                            hour: 'Stunde',
+                            hours: 'Stunden',
+                            minute: 'Minute',
+                            minutes: 'Minuten',
+                            fromnow: 'Ab jetzt',
+                            seconds: 'Sekunden',
+                            yesterday: 'Gestern',
+                            tomorrow: 'Morgen',
+                            days: 'Tage'
+                        }
+                    }
+                });
+                initLazyLoad('#'+storiesID + ' img.lazy');
+                //Hide loading animation
+                $('#storiesLoadingAnimation').hide();
+                return tmp_stories;
+            } else {
+                $('#storiesLoadingAnimation').remove();
+                $('.stories-wrapper').slideUp(150);
+            }
+        }
+
+        const fixVideoNextItem = function(){
+            if( $('#zuck-modal .story-viewer.viewing .slides .item.active').data('type') == 'video' ) {
+                let video = $('#zuck-modal .story-viewer.viewing .slides .item.active').find('video');
+                if(video.prop('muted')){
+                    video.prop('muted', false);
+                }
+                setTimeout(() => {
+                    $('#zuck-modal .story-viewer.viewing').removeClass('muted');
+                }, 100);
+
+            }
+        }
+
+        const initStoryManager = function ( storyId ){
+            $('#zuck-modal .story-viewer[data-story-id="'+storyId+'"] a').on('touchstart mousedown', function(){
+                $('#zuck-modal .story-viewer[data-story-id="'+storyId+'"]').addClass('paused');
+                let video = $('#zuck-modal .story-viewer[data-story-id="'+storyId+'"] .slides .item.active').find('video');
+                if(video){
+                    try {
+                        $(video).get(0).pause();
+                    } catch (e) { }
+                }
+            });
+            $('#zuck-modal .story-viewer[data-story-id="'+storyId+'"] a').on('touchend mouseup mouseleave', function(){
+                $('#zuck-modal .story-viewer[data-story-id="'+storyId+'"]').removeClass('paused');
+                let video = $('#zuck-modal .story-viewer[data-story-id="'+storyId+'"] .slides .item.active').find('video');
+                if(video){
+                    try {
+                        $(video).get(0).play();
+                    } catch (e) { }
+                }
+            });
+            if( $('#zuck-modal .story-viewer[data-story-id="'+storyId+'"] a.tip.link[href="javascript: void(0);"]').length ){
+                $('#zuck-modal .story-viewer[data-story-id="'+storyId+'"] a.tip.link[href="javascript: void(0);"]').off('click').on('click',function (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    if( $(this).hasClass('login-modal') ){
+                        $('#zuck-modal .story-viewer[data-story-id="'+storyId+'"]').addClass('paused');
+                        $('#zuck-modal').hide();
+                        xsTpl.showLoginForm();
+                        $.magnificPopup.instance.st.callbacks.afterClose = function(){
+                            $('html').css('overflow', 'hidden');
+                            $('#zuck-modal').show();
+                            $('#zuck-modal .story-viewer[data-story-id="'+storyId+'"]').removeClass('paused');
+                        }
+                    }
+                    else {
+                        let profile_id = parseInt( storyId.split('-')[1] );
+                        $('#zuck-modal a.close').trigger('click');
+                        xsTpl.openAddStoryPopup(profile_id);
+                    }
+                });
+            }
+        }
+
+
+        const activateAvatarStories = function(){
+            $('[data-story-id]:not(.active-story-avatar)').each(function(){
+                let id = $(this).data('story-id');
+
+                if( Object.keys( stories_data ).length && stories_data.find(x => ( x.id === id && x.avatar )) ){
+                    let seenItems = getStoriesLocalData('seenItems');
+                    let activeStoryClass = 'active-story-avatar';
+                    if( seenItems && seenItems.hasOwnProperty(id) && seenItems[id]){
+                        activeStoryClass += ' seen';
+                    }
+
+                    if( $(this).data('story-priority') && $(this).hasClass('story-add-popup') ){
+                        $(this).removeClass('story-add-popup');
+                    }
+
+                    $(this).addClass(activeStoryClass).not('.story-add-popup').off('click').on('click', function (e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        let id = $(this).data('story-id');
+                        if( !$('#'+storiesID).length ) {
+                            let content = '<div id="'+storiesID+'" class="storiesWrapper avatar" style="display: none;"></div>';
+                            $(content).appendTo('body');
+                        }
+
+                        let target_story = '#'+storiesID+':not(.tmp) div.story[data-id="'+id+'"]';
+
+                        if( !$(target_story).length ) {
+                            $('#'+storiesID).html('');
+                            stories = activateStories(stories_data);
+                        }
+
+                        if( $(target_story).length ) {
+                            $('<div id="'+storiesID+'" class="tmp" style="width=0px; height=0px; visibility: hidden;"><div class="story" data-id="'+id+'"><span class="item-preview"></span></div></div>').prependTo(this);
+                            $(target_story).click();
+                            $(this).find('#'+storiesID+'.tmp').remove();
+                            $('#zuck-modal .story-viewer.previous, #zuck-modal .story-viewer.next').remove();
+                        }
+                    });
+                }
+            });
+        }
+
+        const getStoriesData = function(){
+            let stories_ids = [];
+            $('[data-story-id]').each( function() {
+                if( $(this).data('story-id') ){
+                    if( stories_ids.indexOf( $(this).data('story-id') ) < 0 ) {
+                        stories_ids.push( $(this).data('story-id') );
+                    }
+                }
+            });
+            if( stories_ids.length ) {
+                xajax_getStories(false, stories_ids);
+            }
+        }
+
+        const updateStoriesLocalData = function( data ){
+            let currentData = getStoriesLocalData('data');
+            let seenData = getStoriesLocalData('seenItems');
+
+            if( currentData ){
+                Object.entries(data).forEach(([key, value]) => {
+                    if( currentData.hasOwnProperty(key) && currentData[key].hasOwnProperty('d') && currentData[key]['d'] < value['d'] ){
+                        if( seenData && seenData.hasOwnProperty(key) && seenData[key] ){
+                            seenData[key] = false;
+                        }
+                    }
+                    if( !currentData.hasOwnProperty(key) ){
+                        currentData[key] = { };
+                    }
+                    currentData[key]['d'] = value['d'];
+                });
+            }
+            else{
+                currentData = data;
+            }
+
+            if( seenData ) {
+                saveStoriesLocalData(seenData, 'seenItems');
+            }
+            if( currentData ) {
+                saveStoriesLocalData(currentData, 'data');
+            }
+        }
+
+        const setStorySeenItem = function( storyId, itemId ){
+            let currentData = getStoriesLocalData('data');
+            if( !currentData ){
+                currentData = { };
+            }
+            if( !currentData.hasOwnProperty(storyId) ){
+                currentData[storyId] = { };
+            }
+            if( !currentData[storyId].hasOwnProperty('i') ){
+                currentData[storyId]['i'] = [];
+            }
+            if( !currentData[storyId]['i'].includes( itemId ) ){
+                currentData[storyId]['i'].push(itemId);
+                saveStoriesLocalData(currentData, 'data');
+            }
+        }
+
+        const saveStoriesLocalData = function (data, key) {
+            try {
+                let keyName = 'zuck-' + storiesID + '-' + key;
+                window.localStorage[keyName] = JSON.stringify(data);
+            } catch (e) { }
+        };
+
+        const getStoriesLocalData = function (key) {
+            let keyName = 'zuck-' + storiesID + '-' + key;
+            return window.localStorage[keyName]
+                    ? JSON.parse(window.localStorage[keyName])
+                    : false;
+        };
+
+        const get = function (array, what) {
+            if (array) {
+                return array[what] || '';
+            } else {
+                return '';
+            }
+        };
+
+        const initLazyLoad = function( target ){
+            if( $(target).length ) {
+                $(target).lazy({
+                    effect: "fadeIn",
+                    effectTime: 0,
+                    threshold: 250,
+                    visibleOnly: true
+                });
+            }
+        }
+
+        var stories_scroll_position = 0;
+        var stories_scroll_step = 100;
+
+        $(document).ready(function() {
+                        getStoriesData();
+                    });
+    </script>
+<script>/*<![CDATA[*/
+								var fixed_message = true;
+								var message_text = '', error_fields = '';
+								var message_type = 'error';
+        								
+								$(document).ready(function(){
+									if( readCookie('user_notification') && readCookie('user_notification') != null ) {
+										let user_notification = JSON.parse( decodeURIComponent( readCookie('user_notification') ) );
+										eraseCookie('user_notification');
+										let clean_message_text = DOMPurify.sanitize( user_notification.notice );
+										if( clean_message_text ){
+											message_text = clean_message_text;
+											message_type = user_notification.type;
+										}
+									}
+									if ( message_text ) {
+										printMessage(message_type, message_text, error_fields, fixed_message);
+									}
+								});
+								
+        /*]]>*/
+    </script>
+<script>
+	$(document).ready(function(){
+		var hash = parseInt( xsCore.getHash() );
+		if( hash ) {
+			createCookie('nl_hash', hash);
+		}
+	});
+</script>
+
+
+        <script>
+            /*NativeJS Bridge*/
+            
+            $(document).ready(function(){
+                
+
+
+
+
+                
+                xsTpl.loginModal();
+                xsTpl.creditsPurchasePopup();
+                xsTpl.profileVerificationPopup();
+                xsTpl.profileManagementInvitePopup();
+                xsTpl.profileManagementPermissionsRequestPopup();
+                xsTpl.profileTransferInvitePopup();
+                xsTpl.storyAddPopup();
+            });
+                    </script>
+
+                                
+        <script>
+            var lz_data = {
+                overwrite:true,
+                0:'<!--replace_me_with_CustomField1-->',
+                111:'',
+                112:''
+            };
+        </script>
+
+                
+        <script>
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#f0efef",
+                        "text": "#494949",
+                        "link": '#494949'
+                    },
+                    "button": {
+                        "background": "#e81645"
+                    }
+                },
+                "type": "opt-in",
+                "position": "bottom-left",
+                "revokable": false,
+                "content": {
+                    "message": "Diese Webseite benutzt Cookies, um dir das bestmögliche Benutzererlebnis zu garantieren.",
+                    "allow": "Cookies erlauben",
+                    "deny": "Einstellungen - Abl.",
+                    "link": "Cookie-Richtlinie",
+                    "href": "https://hot.ch/datenschutzerklaerung"
+
+                }
+            });
+        </script>
+
+                
+                    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"90722ac9f895f23a","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2025.1.0","token":"29c2ddb120374928a9962f428a1eaa9a"}' crossorigin="anonymous"></script>
+</body>
+</html>
 
